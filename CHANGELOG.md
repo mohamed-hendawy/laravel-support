@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
 
+## [v5.0.4] - 2021-02-011
+- Add ability for artisan commands to validate answers
+- Add `get_access_area` helper function
+
+## [v5.0.4] - 2021-02-06
+- Simplify service provider model registration into IoC
+- Enforce consistency
+
+## [v5.0.3] - 2020-12-25
+- Fix wrong composer dependency version constraints
+
+## [v5.0.2] - 2020-12-25
+- Switch outdated composer dependencies to temporary compatible forks until it's updated
+
+## [v5.0.1] - 2020-12-25
+- Add support for PHP v8
+
+## [v5.0.0] - 2020-12-22
+- Upgrade to Laravel v8
+
+## [v4.3.1] - 2020-07-16
+- Refactor timezone implementation to fix read/write date attributes
+
+## [v4.3.0] - 2020-07-16
+- Add HasTimezones trait to adjust per user profile
+- Add timeoffset helper function and validation rule
+- Use timezone_identifiers_list native PHP function instead of manually updated timezone list
+- Append application name after page name in titles
+
 ## [v4.2.1] - 2020-06-20
 - Add custom Macroable trait with Eloquent model support
 
@@ -155,6 +184,14 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-12-20
 - Tag first release
 
+[v5.0.5]: https://github.com/rinvex/laravel-support/compare/v5.0.4...v5.0.5
+[v5.0.4]: https://github.com/rinvex/laravel-support/compare/v5.0.3...v5.0.4
+[v5.0.3]: https://github.com/rinvex/laravel-support/compare/v5.0.2...v5.0.3
+[v5.0.2]: https://github.com/rinvex/laravel-support/compare/v5.0.1...v5.0.2
+[v5.0.1]: https://github.com/rinvex/laravel-support/compare/v5.0.0...v5.0.1
+[v5.0.0]: https://github.com/rinvex/laravel-support/compare/v4.3.1...v5.0.0
+[v4.3.1]: https://github.com/rinvex/laravel-support/compare/v4.3.0...v4.3.1
+[v4.3.0]: https://github.com/rinvex/laravel-support/compare/v4.2.1...v4.3.0
 [v4.2.1]: https://github.com/rinvex/laravel-support/compare/v4.2.0...v4.2.1
 [v4.2.0]: https://github.com/rinvex/laravel-support/compare/v4.1.1...v4.2.0
 [v4.1.1]: https://github.com/rinvex/laravel-support/compare/v4.1.0...v4.1.1
